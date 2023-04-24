@@ -1,0 +1,16 @@
+{
+  "1": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "phone": "1234567890",
+    "address": "1234 Elm Street, Springfield, IL"
+  },
+  "2": {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "phone": "9876543210",
+    "address": "5678 Oak Street, Shelbyville, IL"
+  }
+}
