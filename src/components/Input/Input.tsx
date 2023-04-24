@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { TextInput, View } from 'react-native';
+import { Platform, TextInput, View } from 'react-native';
 import { createThemedStyles } from '../../themes/ThemeUtils';
 
 interface IInputProps {
@@ -43,7 +43,7 @@ const getStyles = createThemedStyles(theme => ({
     backgroundColor: theme.colors.placeholder,
     borderRadius: 8,
     paddingHorizontal: theme.spacing.xs,
-    height: 30,
+    height: Platform.OS == 'ios' ? 30 : 50,
   },
   input: {
     flex: 1,
